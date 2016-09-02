@@ -1,0 +1,82 @@
+package sample.xx
+{
+   import avm2.intrinsics.memory.li32;
+   import avm2.intrinsics.memory.si32;
+   import sample.xx__3A__5C_FlasCC_1_2E_0_2E_0_5C_cygwin_5C_tmp_5C_ccLa1Ogg_2E_o_3A_d2a01b4f_2D_d3fd_2D_4bec_2D_9cd5_2D_5487db2cdd80.*;
+   
+   public function F__Z14ecp_MontDoubleP8XZ_POINTPKS_() : void
+   {
+      var _loc1_:* = 0;
+      var _loc3_:* = 0;
+      var _loc4_:int = 0;
+      var _loc5_:int = 0;
+      var _loc6_:int = 0;
+      var _loc7_:* = 0;
+      var _loc2_:* = int(ESP);
+      _loc1_ = _loc2_;
+      _loc2_ = int(_loc2_ - 64);
+      _loc2_ = int(_loc2_ - 16);
+      _loc3_ = li32(_loc1_ + 4);
+      si32(_loc3_,_loc2_ + 4);
+      _loc4_ = _loc1_ - 32;
+      si32(_loc4_,_loc2_);
+      _loc5_ = _loc3_ + 32;
+      si32(_loc5_,_loc2_ + 8);
+      ESP = _loc2_;
+      F_ecp_AddReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc5_,_loc2_ + 8);
+      si32(_loc3_,_loc2_ + 4);
+      _loc6_ = _loc1_ - 64;
+      si32(_loc6_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_SubReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc4_,_loc2_ + 4);
+      si32(_loc4_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_SqrReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc6_,_loc2_ + 4);
+      si32(_loc6_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_SqrReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc6_,_loc2_ + 8);
+      si32(_loc4_,_loc2_ + 4);
+      _loc7_ = li32(_loc1_);
+      si32(_loc7_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_MulReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc6_,_loc2_ + 8);
+      si32(_loc4_,_loc2_ + 4);
+      si32(_loc6_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_SubReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc6_,_loc2_ + 12);
+      si32(121665,_loc2_ + 8);
+      si32(_loc4_,_loc2_ + 4);
+      si32(_loc4_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_WordMulAddReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = int(_loc2_ - 16);
+      si32(_loc6_,_loc2_ + 8);
+      si32(_loc4_,_loc2_ + 4);
+      var _loc8_:int = _loc7_ + 32;
+      si32(_loc8_,_loc2_);
+      ESP = _loc2_;
+      F_ecp_MulReduce();
+      _loc2_ = int(_loc2_ + 16);
+      _loc2_ = _loc1_;
+      ESP = _loc2_;
+   }
+}

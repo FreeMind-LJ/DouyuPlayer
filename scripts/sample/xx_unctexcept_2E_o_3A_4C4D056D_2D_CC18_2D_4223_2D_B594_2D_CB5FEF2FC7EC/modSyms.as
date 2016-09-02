@@ -1,0 +1,4 @@
+package sample.xx_unctexcept_2E_o_3A_4C4D056D_2D_CC18_2D_4223_2D_B594_2D_CB5FEF2FC7EC
+{
+   public var modSyms:Array = [["T","__ZSt21__throw_bad_exceptionv",".text","40"],["T","__ZSt19__throw_ios_failurePKc",".text","80"],["T","__ZSt18__throw_bad_typeidv",".text","248"],["T","__ZSt16__throw_bad_castv",".text","284"],["T","__ZSt17__throw_bad_allocv",".text","320"],["T","__ZSt23__throw_underflow_errorPKc",".text","356"],["T","__ZSt22__throw_overflow_errorPKc",".text","740"],["T","__ZSt19__throw_range_errorPKc",".text","956"],["T","__ZSt21__throw_runtime_errorPKc",".text","1172"],["T","__ZSt20__throw_out_of_rangePKc",".text","1388"],["T","__ZSt20__throw_length_errorPKc",".text","1828"],["T","__ZSt24__throw_invalid_argumentPKc",".text","2044"],["T","__ZSt20__throw_domain_errorPKc",".text","2260"],["T","__ZSt19__throw_logic_errorPKc",".text","2476"]];
+}

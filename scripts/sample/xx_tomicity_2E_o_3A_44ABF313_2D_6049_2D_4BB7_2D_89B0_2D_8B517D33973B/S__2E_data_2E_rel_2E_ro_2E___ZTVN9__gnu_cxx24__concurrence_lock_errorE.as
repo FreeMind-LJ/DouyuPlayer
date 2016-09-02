@@ -1,0 +1,4 @@
+package sample.xx_tomicity_2E_o_3A_44ABF313_2D_6049_2D_4BB7_2D_89B0_2D_8B517D33973B
+{
+   public const S__2E_data_2E_rel_2E_ro_2E___ZTVN9__gnu_cxx24__concurrence_lock_errorE:int = modSects[".data.rel.ro.__ZTVN9__gnu_cxx24__concurrence_lock_errorE"][0];
+}

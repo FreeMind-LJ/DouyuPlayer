@@ -1,0 +1,80 @@
+package sample.xx
+{
+   import avm2.intrinsics.memory.li8;
+   import avm2.intrinsics.memory.si8;
+   
+   public function F__Z8sub_34DAv() : void
+   {
+      var _loc1_:* = 0;
+      var _loc4_:* = 0;
+      var _loc3_:* = 0;
+      var _loc2_:* = int(ESP);
+      _loc1_ = _loc2_;
+      _loc3_ = li8(_msgbox);
+      _loc4_ = li8(_msgbox + 16);
+      si8(_loc4_,_msgbox);
+      si8(_loc3_,_msgbox + 16);
+      _loc3_ = li8(_msgbox + 8);
+      _loc4_ = li8(_msgbox + 24);
+      si8(_loc4_,_msgbox + 8);
+      si8(_loc3_,_msgbox + 24);
+      _loc3_ = li8(_msgbox + 1);
+      _loc4_ = li8(_msgbox + 17);
+      si8(_loc4_,_msgbox + 1);
+      si8(_loc3_,_msgbox + 17);
+      _loc3_ = li8(_msgbox + 9);
+      _loc4_ = li8(_msgbox + 25);
+      si8(_loc4_,_msgbox + 9);
+      si8(_loc3_,_msgbox + 25);
+      _loc3_ = li8(_msgbox + 2);
+      _loc4_ = li8(_msgbox + 18);
+      si8(_loc4_,_msgbox + 2);
+      si8(_loc3_,_msgbox + 18);
+      _loc4_ = li8(_msgbox + 10);
+      _loc3_ = li8(_msgbox + 26);
+      si8(_loc3_,_msgbox + 10);
+      si8(_loc4_,_msgbox + 26);
+      _loc3_ = li8(_msgbox + 3);
+      _loc4_ = li8(_msgbox + 19);
+      si8(_loc4_,_msgbox + 3);
+      si8(_loc3_,_msgbox + 19);
+      _loc3_ = li8(_msgbox + 11);
+      _loc4_ = li8(_msgbox + 27);
+      si8(_loc4_,_msgbox + 11);
+      si8(_loc3_,_msgbox + 27);
+      _loc3_ = li8(_msgbox + 4);
+      _loc4_ = li8(_msgbox + 20);
+      si8(_loc4_,_msgbox + 4);
+      si8(_loc3_,_msgbox + 20);
+      _loc3_ = li8(_msgbox + 12);
+      _loc4_ = li8(_msgbox + 28);
+      si8(_loc4_,_msgbox + 12);
+      si8(_loc3_,_msgbox + 28);
+      _loc3_ = li8(_msgbox + 5);
+      _loc4_ = li8(_msgbox + 21);
+      si8(_loc4_,_msgbox + 5);
+      si8(_loc3_,_msgbox + 21);
+      _loc3_ = li8(_msgbox + 13);
+      _loc4_ = li8(_msgbox + 29);
+      si8(_loc4_,_msgbox + 13);
+      si8(_loc3_,_msgbox + 29);
+      _loc3_ = li8(_msgbox + 6);
+      _loc4_ = li8(_msgbox + 22);
+      si8(_loc4_,_msgbox + 6);
+      si8(_loc3_,_msgbox + 22);
+      _loc4_ = li8(_msgbox + 14);
+      _loc3_ = li8(_msgbox + 30);
+      si8(_loc3_,_msgbox + 14);
+      si8(_loc4_,_msgbox + 30);
+      _loc3_ = li8(_msgbox + 7);
+      _loc4_ = li8(_msgbox + 23);
+      si8(_loc4_,_msgbox + 7);
+      si8(_loc3_,_msgbox + 23);
+      _loc3_ = li8(_msgbox + 15);
+      _loc4_ = li8(_msgbox + 31);
+      si8(_loc4_,_msgbox + 15);
+      si8(_loc3_,_msgbox + 31);
+      _loc2_ = _loc1_;
+      ESP = _loc2_;
+   }
+}
