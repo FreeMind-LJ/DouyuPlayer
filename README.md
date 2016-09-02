@@ -1,1 +1,2 @@
 # DouyuPlayer
+使用ffdec反编译出的斗鱼flash播放器源码
